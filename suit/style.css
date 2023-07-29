@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrap {
+  display: table-column;
+}
+.imageSize{
+    height: 100px;
+    width: 100px;
+}
+.horizon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.innerWrap {
+  border: black;
+  border: 2px;
+  border-style: solid;
+  padding: 0 16px;
+  padding-bottom: 16px;
+}
+.clicked {
+  background-color: lightgreen;
+}
+
+.actionWarp{
+    display: flex;
+   justify-content: end;
+}
+.actionGo , .actionPlayAgain{
+    padding: 14px 32px;
+    border: black;
+    border: 2px;
+    border-style: solid;
+    width: fit-content;
+    margin-top: 16px;
+}
+
+.navWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+h3 {
+  text-align: start;
+}

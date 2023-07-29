@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jawir</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="/style.css" type="text/css" /> -->
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="horizon">
+        <div class="outputHuman"></div>
+        <h1>Against</h1>
+        <div class="outputRobot"></div>
+      </div>
+
+      <div class="innerWrap">
+        <h2>Choose Your Move</h2>
+        <div id="options">
+          <button id="option1">
+            <img src="./assets/rock.jpg" alt="rock" class="imageSize" />
+          </button>
+          <button id="option2">
+            <img src="./assets/paper.jpg" alt="paper" class="imageSize" />
+          </button>
+          <button id="option3">
+            <img src="./assets/scissor.png" alt="scissor" class="imageSize" />
+          </button>
+        </div>
+      </div>
+
+      <div class="navWrap">
+        <div>
+          <div class="navWrap">
+            <h2>RESULT :</h2>
+            <h2 class="result"></h2>
+          </div>
+          <h3>GWE:<span class="humanSkor"></span></h3>
+          <h3>MR.IRONI:<span class="robotSkor"></span></h3>
+        </div>
+
+        <div class="actionWarp">
+          <button class="actionGo">GO</button>
+        </div>
+      </div>
+    </div>
+    <script src="suit.js"></script>
+  </body>
+</html
